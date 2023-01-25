@@ -60,6 +60,8 @@ export const OptionRecipe = styled.div`
     height: 340px;
     object-fit: cover;
     border-radius: 30px;
+
+    cursor: pointer;
   }
 
   @media (max-width: 750px) {

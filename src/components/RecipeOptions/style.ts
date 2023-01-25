@@ -28,6 +28,21 @@ export const ContainerFilter = styled.div`
       border-right: none;
     }
   }
+
+  @media (max-width: 425px) {
+    width: 80%;
+    padding: 8px 0px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+
+    p {
+      font-size: 13px;
+      padding: 0 7px;
+    }
+  }
+
 `;
 
 export const ListRecipe = styled.ul`
@@ -57,17 +72,16 @@ export const OptionRecipe = styled.li`
     width: 100%;
   }
 
-  ul {
-    list-style: none;
-    display: flex;
-    margin-top: 4px;
+  strong {
+    color: #14cc60;
+
   }
 
-  li {
-    margin-right: 10px;
-
+  p {
+    margin-top: 4px;
     font-size: 14px;
   }
+
 
   transition: scale 0.18s ease-in-out;
 
